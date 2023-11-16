@@ -1,0 +1,225 @@
+interface:
+  GetGroupNote:
+    path: '/v3/notesvr/web/getnotes/group'
+    mustKey:
+      - 'groupId'
+    optionKeys:
+      - 'startIndex'
+      - 'rows'
+    input_startIndex_empty_list:  # 非必填项值为空校验
+      - [null, 200]
+      - ["", 200]
+    input_rows_empty_list:  # 非必填项值为空校验
+      - [ null, 200 ]
+      - [ "", 200 ]
+    input_groupId_list: # groupId入参校验
+      - [ 1111111, 200 ]  # 类型校验
+      - [ "ZhongWen", 200 ]  # 字段值是包含英文大小写的字符串
+      - [ "中文", 500 ]  # 字段值是包含中文的字符串
+      - [ "中文 'or'1=1", 500 ]  # sql注入
+      - [ true, 200 ]  # bool类型
+    input_startIndex_list:  # startIndex入参校验
+      - [ 0, 200 ]
+      - [ 1, 200 ]
+      - [ 2, 200 ]
+      - [ -1, 200 ]
+      - [ 1.5, 200 ]
+      - [ "1", 200 ]
+    input_rows_list: # rows入参校验
+      - [ 0, 200 ]
+      - [ 1, 200 ]
+      - [ 2, 200 ]
+      - [ -1, 200 ]
+      - [ 1.5, 200 ]
+      - [ "1", 200]
+    base: {
+      'groupId': 'groupIdx',
+      'startIndex': 0,
+      'rows': 10
+    }
+  SetNoteInfo:
+    path: '/v3_notesvr_set_noteinfo'
+    mustKey:
+      - 'noteId'
+    optionKeys:
+      - 'star'
+      - 'remindTime'
+      - 'remindType'
+      - 'GroupId'
+    input_star_empty_list: # 非必填项值为空校验
+      - [ null, 200 ]
+      - [ "", 200 ]
+    input_remindTime_empty_list: # 非必填项值为空校验
+      - [ null, 200 ]
+      - [ "", 200 ]
+    input_remindType_empty_list: # 非必填项值为空校验
+      - [ null, 200 ]
+      - [ "", 200 ]
+    input_noteId_list: # groupId入参校验
+      - [ 1111111, 200 ]  # 类型校验
+      - [ "ZhongWen", 200 ]  # 字段值是包含英文大小写的字符串
+      - [ "中文", 500 ]  # 字段值是包含中文的字符串
+      - [ "中文 'or'1=1", 500 ]  # sql注入
+      - [ true, 200 ]  # bool类型
+    input_start_list: # start入参校验
+      - [ 0, 200 ]
+      - [ 1, 200 ]
+      - [ 2, 200 ]
+      - [ -1, 200 ]
+      - [ 1.5, 200 ]
+      - [ "1", 200 ]
+    input_remindType_list:
+      - [ 0, 200 ]
+      - [ 1, 200 ]
+      - [ 2, 200 ]
+      - [ -1, 200 ]
+      - [ 1.5, 200 ]
+      - [ "1", 200 ]
+    input_remindTime_list: # remindTime入参校验
+      - [ -1699282800000, 200 ]
+      - [ 9999999900000, 200 ]
+      - [ 1.5, 200 ]
+      - [ "1", 200 ]
+    input_groupId_list: # groupId入参校验
+      - [ 1111111, 200 ]  # 类型校验
+      - [ "ZhongWen", 200 ]  # 字段值是包含英文大小写的字符串
+      - [ "中文", 500 ]  # 字段值是包含中文的字符串
+      - [ "中文 'or'1=1", 500 ]  # sql注入
+      - [ true, 200 ]  # bool类型
+    base: {
+      "noteId": "noteId",
+      "star": 0,
+      "remindTime": 1699282800000,
+      "remindType": 0,
+      "groupId": "groupId"
+    }
+  SetNoteContent:
+    path: '/v3/notesvr/set/notecontent'
+    mustKey:
+      - 'noteId'
+      - 'body'
+    optionKeys:
+      - 'noteId'
+      - 'title'
+      - 'summary'
+      - 'localContentVersion'
+      - 'bodyType'
+    input_noteId_empty_list: # 必填项值为空校验
+      - [ null, 500 ]
+      - [ "", 500 ]
+    input_body_empty_list:
+      - [ null, 412 ]
+      - [ "", 412 ]
+    input_title_list:
+      - [ 1111111, 200 ]
+      - [ "!@#$%^&*(){}|:?><~`-=_+[],./~！@#）（*&……%￥+——：“{}|《》？【】、；‘，。？", 500 ]  # 字段值是包含特殊字符的字符串
+      - [ "Biaoti", 200 ]
+      - [ "标题", 500 ]
+      - [ "标题 'or'1=1", 500 ]
+      - [ True, 200 ]
+    input_summary_list:
+      - [ 1111111, 200 ]
+      - [ "!@#$%^&*(){}|:?><~`-=_+[],./~！@#）（*&……%￥+——：“{}|《》？【】、；‘，。？", 500 ]  # 字段值是包含特殊字符的字符串
+      - [ "Biaoti", 200 ]
+      - [ "标题", 500 ]
+      - [ "标题 'or'1=1", 500 ]
+      - [ True, 200 ]
+    input_localContentVersion_list:
+      - [ 1111111, 200 ]
+      - [ "!@#$%^&*(){}|:?><~`-=_+[],./~！@#）（*&……%￥+——：“{}|《》？【】、；‘，。？", 500 ]  # 字段值是包含特殊字符的字符串
+      - [ "Biaoti", 200 ]
+      - [ "标题", 500 ]
+      - [ "标题 'or'1=1", 500 ]
+      - [ True, 200 ]
+    input_bodyType_list:
+      - [ 1, 200 ]
+      - [ 0, 200 ]
+      - [ "1", 200 ]
+    base: {
+      "title": "oZIyHTsF3CyIESOiGvuiEQ==",
+        "summary": "R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=",
+        "body": "R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=",
+        "localContentVersion": "1",
+        "noteId": "1",
+        "bodyType": 0
+    }
+  GetNoteBody:
+    path: '/v3/notesvr/get/notebody'
+    mustKey:
+      - 'noteIds'
+    input_noteIds_empty_list: # 必填项值为空校验
+      - [ null, 500 ]
+      - [ "", 500 ]
+    base: {
+      "noteId": ["1"],
+    }
+  NoteDelete:
+    path: '/v3/notesvr/delete'
+    mustKey:
+      - 'noteId'
+    input_noteId_empty_list: # 必填项值为空校验
+      - [ null, 500 ]
+      - [ "", 500 ]
+    base: {
+      "noteId": "1",
+    }
+  GetNoteGroup:
+    path: '/v3/notesvr/get/notegroup'
+    optionKeys:
+      - 'excludeInvalid'
+    input_excludeInvalid_empty_list: # 必填项值为空校验
+      - [ null, 500 ]
+      - [ "", 500 ]
+    base: {
+      "lastRequestTime":0,
+      "excludeInValid":True
+    }
+  SetNoteGroup:
+    path: '/v3/notesvr/set/notegroup'
+    optionKeys:
+      - 'groupId'
+      - 'groupName'
+    input_groupName_empty_list: # 必填项值为空校验
+      - [ null, 500 ]
+      - [ "", 500 ]
+    input_groupId_empty_list: # 必填项值为空校验
+      - [ null, 500 ]
+      - [ "", 500 ]
+    base: {
+          "groupName": "groupName",
+          "groupId": "groupId",
+          "order": 0
+
+    }
+  DeleteNoteGroup:
+    path: '/v3/notesvr/delete/notegroup'
+    optionKeys:
+      - 'groupId'
+    input_groupId_empty_list: # 必填项值为空校验
+      - [ null, 500 ]
+      - [ "", 500 ]
+    base: {
+      "groupId": "groupId",
+    }
+  GetNotesRemind:
+    path: '/v3/notesvr/web/getnotes/remind'
+    optionKeys:
+      - 'remindStartTime'
+      - 'remindEndTime'
+      - 'startIndex'
+      - 'rows'
+    input_remindStartTime_empty_list: # 必填项值为空校验
+      - [ null, 500 ]
+      - [ "", 500 ]
+    base: {
+      "rows": 300,
+      "startIndex": 0,
+#      "month": "2023/10",
+      "remindStartTime": 1696089600000,
+      "remindEndTime": 1698768000000
+    }
+
+
+
+
+
