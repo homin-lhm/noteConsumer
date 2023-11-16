@@ -1,0 +1,20 @@
+[INFO]2023-11-02 00:00:09:449--caseLog.py:69--111
+[ERROR]2023-11-02 00:00:09:468--caseLog.py:70--111
+[STEP]2023-11-02 00:00:09:482--caseLog.py:71--111
+[INFO]2023-11-02 00:00:57:453--caseLog.py:69--111
+[ERROR]2023-11-02 00:00:57:466--caseLog.py:70--111
+[STEP]2023-11-02 00:00:57:480--caseLog.py:71--111
+[INFO]2023-11-02 00:02:19:645--caseLog.py:69--111
+[ERROR]2023-11-02 00:02:19:667--caseLog.py:70--111
+[STEP]2023-11-02 00:02:19:691--caseLog.py:71--111
+[INFO]2023-11-02 00:03:39:027--caseLog.py:69--111
+[ERROR]2023-11-02 00:03:39:047--caseLog.py:70--111
+[STEP]2023-11-02 00:03:39:069--caseLog.py:71--111
+[STEP]2023-11-02 00:03:39:492--test_major.py:51--PRE-STEP：新增一个分组
+[STEP]2023-11-02 00:03:39:576--test_major.py:53--PRE-STEP：在分组下新增一个便签
+[STEP]2023-11-02 00:03:39:710--test_major.py:55--STEP：查看分组下便签
+[INFO]2023-11-02 00:03:39:784--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-02 00:03:39:790--re.py:18--res body:{'groupId': '1698854619493_groupId', 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-02 00:03:39:797--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-02 00:03:39:876--re.py:25--res code:200
+[INFO]2023-11-02 00:03:39:882--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1698854619576_noteId","createTime":1698854619533,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1698854619533,"groupId":"1698854619493_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1698854619567}]}

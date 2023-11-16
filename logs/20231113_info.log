@@ -1,0 +1,43 @@
+[STEP]2023-11-13 20:39:44:975--test_major.py:51--PRE-STEP：新增一个分组
+[INFO]2023-11-13 20:39:45:055--createGroup.py:38--创建的分组：['1699879184976_groupId']
+[STEP]2023-11-13 20:39:45:061--test_major.py:53--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-13 20:39:45:230--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699879185062_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699879184976_groupId'}]
+[STEP]2023-11-13 20:39:45:237--test_major.py:55--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-13 20:39:45:246--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-13 20:39:45:253--re.py:18--res body:{'groupId': '1699879184976_groupId', 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-13 20:39:45:260--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-13 20:39:45:332--re.py:25--res code:200
+[INFO]2023-11-13 20:39:45:338--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699879185062_noteId","createTime":1699879185115,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1699879185115,"groupId":"1699879184976_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699879185213}]}
+[INFO]2023-11-13 20:42:20:224--test_major.py:46--PRE_STEP：获得所有分组
+[INFO]2023-11-13 20:42:20:311--createGroup.py:97--获取分组列表：['1699778422461_groupId', '1699879184976_groupId', '226793524']
+[STEP]2023-11-13 20:42:20:321--test_major.py:48--PRE_STEP：获得分组下便签
+[INFO]2023-11-13 20:42:20:405--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-13 20:42:20:417--test_major.py:54--PRE_STEP：删除分组
+[INFO]2023-11-13 20:42:20:563--createGroup.py:137--获取分组下的便签：['1699879185062_noteId']
+[STEP]2023-11-13 20:42:20:574--test_major.py:52--PRE_STEP：删除分组下便签
+[STEP]2023-11-13 20:42:20:695--test_major.py:54--PRE_STEP：删除分组
+[INFO]2023-11-13 20:42:20:823--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-13 20:42:20:828--test_major.py:54--PRE_STEP：删除分组
+[STEP]2023-11-13 20:42:20:873--test_major.py:64--PRE-STEP：新增一个分组
+[INFO]2023-11-13 20:42:20:943--createGroup.py:38--创建的分组：['1699879340874_groupId']
+[STEP]2023-11-13 20:42:20:952--test_major.py:66--STEP: 获取分组列表的接口请求
+[INFO]2023-11-13 20:42:20:967--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notegroup
+[INFO]2023-11-13 20:42:20:980--re.py:18--res body:{'lastRequestTime': 0, 'excludeInValid': True}
+[INFO]2023-11-13 20:42:20:992--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-13 20:42:21:080--re.py:25--res code:200
+[INFO]2023-11-13 20:42:21:092--re.py:26--res res:{"noteGroups":[{"userId":"226793524","groupId":"1699879340874_groupId","groupName":"Test","order":0,"valid":1,"updateTime":1699879340928},{"userId":"226793524","groupId":"226793524","groupName":"未知分组","order":0,"valid":1,"updateTime":1698380283035}],"requestTime":1699879341052}
+[INFO]2023-11-13 20:44:16:270--test_major.py:46--PRE_STEP：获得所有分组
+[INFO]2023-11-13 20:44:16:380--createGroup.py:97--获取分组列表：['1699879340874_groupId', '226793524']
+[STEP]2023-11-13 20:44:16:388--test_major.py:48--PRE_STEP：获得分组下便签
+[INFO]2023-11-13 20:44:16:484--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-13 20:44:16:496--test_major.py:54--PRE_STEP：删除分组
+[INFO]2023-11-13 20:44:16:677--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-13 20:44:16:688--test_major.py:54--PRE_STEP：删除分组
+[STEP]2023-11-13 20:44:16:698--test_major.py:64--PRE-STEP：新增一个分组
+[INFO]2023-11-13 20:44:16:780--createGroup.py:38--创建的分组：['1699879456699_groupId']
+[STEP]2023-11-13 20:44:16:793--test_major.py:66--STEP: 获取分组列表的接口请求
+[INFO]2023-11-13 20:44:16:806--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notegroup
+[INFO]2023-11-13 20:44:16:820--re.py:18--res body:{'lastRequestTime': 0, 'excludeInValid': True}
+[INFO]2023-11-13 20:44:16:988--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-13 20:44:17:054--re.py:25--res code:200
+[INFO]2023-11-13 20:44:17:060--re.py:26--res res:{"noteGroups":[{"userId":"226793524","groupId":"1699879456699_groupId","groupName":"Test","order":0,"valid":1,"updateTime":1699879456755},{"userId":"226793524","groupId":"226793524","groupName":"未知分组","order":0,"valid":1,"updateTime":1698380283035}],"requestTime":1699879457043}

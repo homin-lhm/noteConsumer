@@ -1,0 +1,768 @@
+[INFO]2023-11-14 14:43:59:272--test_major.py:46--PRE_STEP：获得所有分组
+[INFO]2023-11-14 14:43:59:353--createGroup.py:97--获取分组列表：['1699879456699_groupId', '226793524']
+[STEP]2023-11-14 14:43:59:358--test_major.py:48--PRE_STEP：获得分组下便签
+[INFO]2023-11-14 14:43:59:434--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 14:43:59:439--test_major.py:54--PRE_STEP：删除分组
+[INFO]2023-11-14 14:43:59:641--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 14:43:59:646--test_major.py:54--PRE_STEP：删除分组
+[STEP]2023-11-14 14:43:59:651--test_major.py:64--PRE-STEP：新增一个分组
+[INFO]2023-11-14 14:43:59:735--createGroup.py:38--创建的分组：['1699944239652_groupId']
+[STEP]2023-11-14 14:43:59:740--test_major.py:66--STEP: 获取分组列表的接口请求
+[INFO]2023-11-14 14:43:59:747--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notegroup
+[INFO]2023-11-14 14:43:59:752--re.py:18--res body:{'lastRequestTime': 0, 'excludeInValid': True}
+[INFO]2023-11-14 14:43:59:757--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 14:43:59:822--re.py:25--res code:200
+[INFO]2023-11-14 14:43:59:827--re.py:26--res res:{"noteGroups":[{"userId":"226793524","groupId":"1699944239652_groupId","groupName":"Test","order":0,"valid":1,"updateTime":1699944239705},{"userId":"226793524","groupId":"226793524","groupName":"未知分组","order":0,"valid":1,"updateTime":1698380283035}],"requestTime":1699944239810}
+[INFO]2023-11-14 14:44:39:988--test_major.py:46--PRE_STEP：获得所有分组
+[INFO]2023-11-14 14:44:40:040--createGroup.py:97--获取分组列表：['1699944239652_groupId', '226793524']
+[STEP]2023-11-14 14:44:40:045--test_major.py:48--PRE_STEP：获得分组下便签
+[INFO]2023-11-14 14:44:40:107--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 14:44:40:113--test_major.py:54--PRE_STEP：删除分组
+[INFO]2023-11-14 14:44:40:251--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 14:44:40:256--test_major.py:54--PRE_STEP：删除分组
+[STEP]2023-11-14 14:44:40:261--test_major.py:64--PRE-STEP：新增一个分组
+[INFO]2023-11-14 14:44:40:329--createGroup.py:38--创建的分组：['1699944280262_groupId']
+[STEP]2023-11-14 14:44:40:334--test_major.py:66--STEP: 获取分组列表的接口请求
+[INFO]2023-11-14 14:44:40:340--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notegroup
+[INFO]2023-11-14 14:44:40:345--re.py:18--res body:{'lastRequestTime': 0, 'excludeInValid': True}
+[INFO]2023-11-14 14:44:40:351--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 14:44:40:418--re.py:25--res code:200
+[INFO]2023-11-14 14:44:40:424--re.py:26--res res:{"noteGroups":[{"userId":"226793524","groupId":"1699944280262_groupId","groupName":"Test","order":0,"valid":1,"updateTime":1699944280313},{"userId":"226793524","groupId":"226793524","groupName":"未知分组","order":0,"valid":1,"updateTime":1698380283035}],"requestTime":1699944280406}
+[INFO]2023-11-14 14:45:33:083--test_major.py:46--PRE_STEP：获得所有分组
+[INFO]2023-11-14 14:45:33:184--createGroup.py:97--获取分组列表：['1699944280262_groupId', '226793524']
+[STEP]2023-11-14 14:45:33:190--test_major.py:48--PRE_STEP：获得分组下便签
+[INFO]2023-11-14 14:45:33:258--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 14:45:33:264--test_major.py:54--PRE_STEP：删除分组
+[INFO]2023-11-14 14:45:33:382--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 14:45:33:388--test_major.py:54--PRE_STEP：删除分组
+[STEP]2023-11-14 14:45:33:393--test_major.py:64--PRE-STEP：新增一个分组
+[INFO]2023-11-14 14:45:33:461--createGroup.py:38--创建的分组：['1699944333394_groupId']
+[STEP]2023-11-14 14:45:33:466--test_major.py:66--STEP: 获取分组列表的接口请求
+[INFO]2023-11-14 14:45:33:472--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notegroup
+[INFO]2023-11-14 14:45:33:478--re.py:18--res body:{'lastRequestTime': 0, 'excludeInValid': True}
+[INFO]2023-11-14 14:45:33:483--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 14:45:33:544--re.py:25--res code:200
+[INFO]2023-11-14 14:45:33:549--re.py:26--res res:{"noteGroups":[{"userId":"226793524","groupId":"1699944333394_groupId","groupName":"Test","order":0,"valid":1,"updateTime":1699944333444},{"userId":"226793524","groupId":"226793524","groupName":"未知分组","order":0,"valid":1,"updateTime":1698380283035}],"requestTime":1699944333528}
+[INFO]2023-11-14 14:50:26:996--test_major.py:46--PRE_STEP：获得所有分组
+[INFO]2023-11-14 14:50:27:073--createGroup.py:97--获取分组列表：['1699944333394_groupId', '226793524']
+[STEP]2023-11-14 14:50:27:078--test_major.py:48--PRE_STEP：获得分组下便签
+[INFO]2023-11-14 14:50:27:176--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 14:50:27:181--test_major.py:54--PRE_STEP：删除分组
+[INFO]2023-11-14 14:50:27:337--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 14:50:27:342--test_major.py:54--PRE_STEP：删除分组
+[STEP]2023-11-14 14:50:27:347--test_major.py:64--PRE-STEP：新增一个分组
+[INFO]2023-11-14 14:50:27:438--createGroup.py:38--创建的分组：['1699944627348_groupId']
+[STEP]2023-11-14 14:50:27:443--test_major.py:66--STEP: 获取分组列表的接口请求
+[INFO]2023-11-14 14:50:27:449--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notegroup
+[INFO]2023-11-14 14:50:27:455--re.py:18--res body:{'lastRequestTime': 0, 'excludeInValid': True}
+[INFO]2023-11-14 14:50:27:460--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 14:50:27:538--re.py:25--res code:200
+[INFO]2023-11-14 14:50:27:544--re.py:26--res res:{"noteGroups":[{"userId":"226793524","groupId":"1699944627348_groupId","groupName":"Test","order":0,"valid":1,"updateTime":1699944627409},{"userId":"226793524","groupId":"226793524","groupName":"未知分组","order":0,"valid":1,"updateTime":1698380283035}],"requestTime":1699944627516}
+[INFO]2023-11-14 17:56:49:476--test_major.py:28--PRE_STEP：获得所有分组
+[INFO]2023-11-14 17:56:49:537--createGroup.py:97--获取分组列表：['1699944627348_groupId', '226793524']
+[STEP]2023-11-14 17:56:49:542--test_major.py:30--PRE_STEP：获得分组下便签
+[INFO]2023-11-14 17:56:49:600--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 17:56:49:605--test_major.py:36--PRE_STEP：删除分组
+[INFO]2023-11-14 17:56:49:740--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 17:56:49:745--test_major.py:36--PRE_STEP：删除分组
+[STEP]2023-11-14 17:56:49:750--test_major.py:46--STEP: 新增分组的接口请求
+[INFO]2023-11-14 17:56:49:756--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 17:56:49:762--re.py:18--res body:{'groupName': '1699955809751_groupName', 'groupId': '1699955809751_groupId', 'order': 0}
+[INFO]2023-11-14 17:56:49:768--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 17:56:49:845--re.py:25--res code:200
+[INFO]2023-11-14 17:56:49:850--re.py:26--res res:{"responseTime":0,"webNotes":[]}
+[INFO]2023-11-14 18:01:40:648--test_major.py:28--PRE_STEP：获得所有分组
+[INFO]2023-11-14 18:01:40:747--createGroup.py:97--获取分组列表：['226793524']
+[STEP]2023-11-14 18:01:40:752--test_major.py:30--PRE_STEP：获得分组下便签
+[INFO]2023-11-14 18:01:40:844--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 18:01:40:850--test_major.py:36--PRE_STEP：删除分组
+[STEP]2023-11-14 18:01:40:855--test_major.py:46--STEP: 新增分组的接口请求
+[INFO]2023-11-14 18:01:40:862--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]2023-11-14 18:01:40:867--re.py:18--res body:{'groupName': '1699956100856_groupName', 'groupId': '1699956100856_groupId', 'order': 0}
+[INFO]2023-11-14 18:01:40:873--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 18:01:40:952--re.py:25--res code:200
+[INFO]2023-11-14 18:01:40:957--re.py:26--res res:{"responseTime":48,"updateTime":1699956100932}
+[STEP]2023-11-14 18:01:40:963--test_major.py:58--STEP:获取分组列表
+[INFO]2023-11-14 18:01:41:031--createGroup.py:97--获取分组列表：['1699956100856_groupId', '226793524']
+[INFO]2023-11-14 18:01:55:781--test_major.py:28--PRE_STEP：获得所有分组
+[INFO]2023-11-14 18:01:55:829--createGroup.py:97--获取分组列表：['1699956100856_groupId', '226793524']
+[STEP]2023-11-14 18:01:55:835--test_major.py:30--PRE_STEP：获得分组下便签
+[INFO]2023-11-14 18:01:55:902--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 18:01:55:907--test_major.py:36--PRE_STEP：删除分组
+[INFO]2023-11-14 18:01:56:035--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 18:01:56:041--test_major.py:36--PRE_STEP：删除分组
+[STEP]2023-11-14 18:01:56:046--test_major.py:46--STEP: 新增分组的接口请求
+[INFO]2023-11-14 18:01:56:053--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]2023-11-14 18:01:56:058--re.py:18--res body:{'groupName': '1699956116047_groupName', 'groupId': '1699956116047_groupId', 'order': 0}
+[INFO]2023-11-14 18:01:56:063--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 18:01:56:126--re.py:25--res code:200
+[INFO]2023-11-14 18:01:56:132--re.py:26--res res:{"responseTime":35,"updateTime":1699956116108}
+[STEP]2023-11-14 18:01:56:137--test_major.py:58--STEP:获取分组列表
+[INFO]2023-11-14 18:01:56:198--createGroup.py:97--获取分组列表：['1699956116047_groupId', '226793524']
+[INFO]2023-11-14 18:07:18:079--test_major.py:28--PRE_STEP：获得所有分组
+[INFO]2023-11-14 18:07:18:155--createGroup.py:97--获取分组列表：['1699956116047_groupId', '226793524']
+[STEP]2023-11-14 18:07:18:160--test_major.py:30--PRE_STEP：获得分组下便签
+[INFO]2023-11-14 18:07:18:224--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 18:07:18:230--test_major.py:36--PRE_STEP：删除分组
+[INFO]2023-11-14 18:07:18:350--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 18:07:18:355--test_major.py:36--PRE_STEP：删除分组
+[STEP]2023-11-14 18:07:18:360--test_major.py:46--STEP: 删除分组的接口请求
+[INFO]2023-11-14 18:07:18:366--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/delete/notegroup
+[INFO]2023-11-14 18:07:18:371--re.py:18--res body:{'groupId': 'groupId'}
+[INFO]2023-11-14 18:07:18:376--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 18:07:18:462--re.py:25--res code:200
+[INFO]2023-11-14 18:07:18:469--re.py:26--res res:{"responseTime":51}
+[STEP]2023-11-14 18:07:18:475--test_major.py:53--STEP:获取分组列表
+[INFO]2023-11-14 18:07:18:567--createGroup.py:97--获取分组列表：['226793524']
+[STEP]2023-11-14 19:36:23:974--test_major.py:54--STEP: 上传更新便签主体、内容
+[INFO]2023-11-14 19:36:24:151--createNotes.py:53--[{'noteId': '1699961783975_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA='}]
+[STEP]2023-11-14 19:36:24:157--test_major.py:57--STEP: 查看日历下便签的主流程的接口请求
+[INFO]2023-11-14 19:36:24:163--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/remind
+[INFO]2023-11-14 19:36:24:169--re.py:18--res body:{'rows': 300, 'startIndex': 0, 'remindStartTime': 1700186400000, 'remindEndTime': 1700186400000}
+[INFO]2023-11-14 19:36:24:175--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 19:36:24:269--re.py:25--res code:200
+[INFO]2023-11-14 19:36:24:275--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699961783975_noteId","createTime":1699961784021,"star":0,"remindTime":1700186400000,"remindType":1,"infoVersion":1,"infoUpdateTime":1699961784021,"groupId":null,"title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699961784084}]}
+[STEP]2023-11-14 19:38:19:608--test_major.py:54--STEP: 上传更新便签主体、内容
+[INFO]2023-11-14 19:38:19:746--createNotes.py:53--[{'noteId': '1699961899608_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA='}]
+[STEP]2023-11-14 19:38:19:752--test_major.py:57--STEP: 查看日历下便签的主流程的接口请求
+[INFO]2023-11-14 19:38:19:759--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/remind
+[INFO]2023-11-14 19:38:19:765--re.py:18--res body:{'rows': 300, 'startIndex': 0, 'remindStartTime': 1700186400000, 'remindEndTime': 1700186400000}
+[INFO]2023-11-14 19:38:19:772--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 19:38:19:844--re.py:25--res code:200
+[INFO]2023-11-14 19:38:19:850--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699961783975_noteId","createTime":1699961784021,"star":0,"remindTime":1700186400000,"remindType":1,"infoVersion":1,"infoUpdateTime":1699961784021,"groupId":null,"title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699961784084},{"noteId":"1699961899608_noteId","createTime":1699961899653,"star":0,"remindTime":1700186400000,"remindType":1,"infoVersion":1,"infoUpdateTime":1699961899653,"groupId":null,"title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699961899715}]}
+[STEP]2023-11-14 21:31:24:441--test_handles.py:40--STEP: 上传更新便签主体、内容
+[INFO]2023-11-14 21:31:24:719--createNotes.py:53--[{'noteId': '1699968684441_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA='}]
+[STEP]2023-11-14 21:31:24:720--test_handles.py:42--STEP: 软删除便签的接口请求
+[INFO]2023-11-14 21:31:24:721--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/delete
+[INFO]2023-11-14 21:31:24:721--re.py:18--res body:{'noteId': '1699968684441_noteId'}
+[INFO]2023-11-14 21:31:24:722--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SZjpl_yuVlqJhROP2TXX4oEH0YJg00ae3f64d000b74ebde', 'X-user-key': '192211934'}
+[INFO]2023-11-14 21:31:24:873--re.py:25--res code:200
+[INFO]2023-11-14 21:31:24:874--re.py:26--res res:{"responseTime":47}
+[INFO]2023-11-14 21:31:25:016--getAllNotes.py:30--用户226793524首页所有便签id:['1699968684441_noteId']
+[INFO]2023-11-14 21:31:25:017--test_handles.py:54--noteId和noteIds是：1699968684441_noteId ['1699968684441_noteId']
+[STEP]2023-11-14 21:31:25:467--test_input.py:40--STEP: 便签软删除的接口请求
+[INFO]2023-11-14 21:31:25:468--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/delete
+[INFO]2023-11-14 21:31:25:468--re.py:18--res body:{}
+[INFO]2023-11-14 21:31:25:469--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:25:595--re.py:25--res code:500
+[INFO]2023-11-14 21:31:25:597--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]2023-11-14 21:31:25:913--test_input.py:51--STEP: 便签软删除
+[INFO]2023-11-14 21:31:25:914--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/delete
+[INFO]2023-11-14 21:31:25:914--re.py:18--res body:{'noteId': None}
+[INFO]2023-11-14 21:31:25:915--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:26:038--re.py:25--res code:500
+[INFO]2023-11-14 21:31:26:039--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]2023-11-14 21:31:26:306--test_input.py:51--STEP: 便签软删除
+[INFO]2023-11-14 21:31:26:307--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/delete
+[INFO]2023-11-14 21:31:26:308--re.py:18--res body:{'noteId': ''}
+[INFO]2023-11-14 21:31:26:309--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:26:426--re.py:25--res code:500
+[INFO]2023-11-14 21:31:26:428--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]2023-11-14 21:31:26:687--test_input.py:62--STEP: 便签软删除
+[INFO]2023-11-14 21:31:26:688--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/delete
+[INFO]2023-11-14 21:31:26:689--re.py:18--res body:{'noteId': '111'}
+[INFO]2023-11-14 21:31:26:689--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:26:846--re.py:25--res code:200
+[INFO]2023-11-14 21:31:26:847--re.py:26--res res:{"responseTime":32}
+[STEP]2023-11-14 21:31:27:126--test_input.py:76--STEP: 便签软删除的接口请求
+[INFO]2023-11-14 21:31:27:127--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/delete
+[INFO]2023-11-14 21:31:27:128--re.py:18--res body:{'noteId': '1'}
+[INFO]2023-11-14 21:31:27:128--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '1'}
+[INFO]2023-11-14 21:31:27:272--re.py:25--res code:412
+[INFO]2023-11-14 21:31:27:273--re.py:26--res res:{"errorCode":-1011,"errorMsg":"user change!"}
+[STEP]2023-11-14 21:31:32:562--test_input.py:99--STEP: 上传更新便签内容的接口请求
+[INFO]2023-11-14 21:31:32:563--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/delete
+[INFO]2023-11-14 21:31:32:564--re.py:18--res body:{'noteId': '1'}
+[INFO]2023-11-14 21:31:32:564--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=111111111', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:32:673--re.py:25--res code:401
+[INFO]2023-11-14 21:31:32:673--re.py:26--res res:{"errorCode":-2010,"errorMsg":""}
+[STEP]2023-11-14 21:31:32:948--test_input.py:110--STEP: 上传更新便签内容的接口请求
+[INFO]2023-11-14 21:31:32:949--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/delete
+[INFO]2023-11-14 21:31:32:950--re.py:18--res body:{'noteId': '1'}
+[INFO]2023-11-14 21:31:32:950--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:33:113--re.py:25--res code:401
+[INFO]2023-11-14 21:31:33:114--re.py:26--res res:{"errorCode":-2010,"errorMsg":""}
+[STEP]2023-11-14 21:31:33:374--test_major.py:37--STEP: 上传更新便签主体、内容
+[INFO]2023-11-14 21:31:33:676--createNotes.py:53--[{'noteId': '1699968693374_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA='}]
+[STEP]2023-11-14 21:31:33:677--test_major.py:39--STEP: 软删除便签的接口请求
+[INFO]2023-11-14 21:31:33:678--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/delete
+[INFO]2023-11-14 21:31:33:678--re.py:18--res body:{'noteId': '1699968693374_noteId'}
+[INFO]2023-11-14 21:31:33:679--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:33:813--re.py:25--res code:200
+[INFO]2023-11-14 21:31:33:814--re.py:26--res res:{"responseTime":34}
+[INFO]2023-11-14 21:31:33:956--getAllNotes.py:30--用户226793524首页所有便签id:[]
+[STEP]2023-11-14 21:31:34:247--test_major.py:56--STEP: 在分组下，上传更新便签主体、内容
+[INFO]2023-11-14 21:31:34:544--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968694247_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '11111111_groupId'}]
+[STEP]2023-11-14 21:31:34:545--test_major.py:58--STEP: 软删除便签的接口请求
+[INFO]2023-11-14 21:31:34:546--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/delete
+[INFO]2023-11-14 21:31:34:546--re.py:18--res body:{'noteId': '1699968694247_noteId'}
+[INFO]2023-11-14 21:31:34:547--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:34:708--re.py:25--res code:200
+[INFO]2023-11-14 21:31:34:710--re.py:26--res res:{"responseTime":31}
+[INFO]2023-11-14 21:31:34:855--createGroup.py:137--获取分组下的便签：[]
+[INFO]2023-11-14 21:31:35:543--test_major.py:28--PRE_STEP：获得所有分组
+[INFO]2023-11-14 21:31:35:679--createGroup.py:97--获取分组列表：['226793524']
+[STEP]2023-11-14 21:31:35:680--test_major.py:30--PRE_STEP：获得分组下便签
+[INFO]2023-11-14 21:31:35:829--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 21:31:35:830--test_major.py:36--PRE_STEP：删除分组
+[STEP]2023-11-14 21:31:35:831--test_major.py:46--STEP: 删除分组的接口请求
+[INFO]2023-11-14 21:31:35:832--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/remind
+[INFO]2023-11-14 21:31:35:833--re.py:18--res body:{'rows': 300, 'startIndex': 0, 'remindStartTime': 1696089600000, 'remindEndTime': 1698768000000}
+[INFO]2023-11-14 21:31:35:834--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:35:985--re.py:25--res code:200
+[INFO]2023-11-14 21:31:35:987--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"447f6031d12ff919a16ed8ab33c06a28","createTime":1697360027760,"star":0,"remindTime":1697367600000,"remindType":1,"infoVersion":4,"infoUpdateTime":1697365376279,"groupId":null,"title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"X+SlI47+OIM1ZWHmQyLEOg==","thumbnail":null,"contentVersion":1,"contentUpdateTime":1697360027874},{"noteId":"6d05a2d776e2b8fe60bcd0d19b919cc5","createTime":1697365546263,"star":0,"remindTime":1697367600000,"remindType":1,"infoVersion":1,"infoUpdateTime":1697365546263,"groupId":null,"title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"FeYH6u8PZdtIDg8GnOwiMQ==","thumbnail":null,"contentVersion":1,"contentUpdateTime":1697365546355}]}
+[INFO]2023-11-14 21:31:36:269--test_major.py:46--PRE_STEP：获得所有分组
+[INFO]2023-11-14 21:31:36:404--createGroup.py:97--获取分组列表：['226793524']
+[STEP]2023-11-14 21:31:36:405--test_major.py:48--PRE_STEP：获得分组下便签
+[INFO]2023-11-14 21:31:36:535--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 21:31:36:535--test_major.py:54--PRE_STEP：删除分组
+[STEP]2023-11-14 21:31:36:536--test_major.py:64--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:36:671--createGroup.py:38--创建的分组：['1699968696536_groupId']
+[STEP]2023-11-14 21:31:36:672--test_major.py:66--STEP: 获取分组列表的接口请求
+[INFO]2023-11-14 21:31:36:673--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notegroup
+[INFO]2023-11-14 21:31:36:673--re.py:18--res body:{'lastRequestTime': 0, 'excludeInValid': True}
+[INFO]2023-11-14 21:31:36:674--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:36:817--re.py:25--res code:200
+[INFO]2023-11-14 21:31:36:818--re.py:26--res res:{"noteGroups":[{"userId":"226793524","groupId":"1699968696536_groupId","groupName":"Test","order":0,"valid":1,"updateTime":1699968698345},{"userId":"226793524","groupId":"226793524","groupName":"未知分组","order":0,"valid":1,"updateTime":1698380283035}],"requestTime":1699968698493}
+[INFO]2023-11-14 21:31:37:092--test_major.py:28--PRE_STEP：获得所有分组
+[INFO]2023-11-14 21:31:37:228--createGroup.py:97--获取分组列表：['1699968696536_groupId', '226793524']
+[STEP]2023-11-14 21:31:37:229--test_major.py:30--PRE_STEP：获得分组下便签
+[INFO]2023-11-14 21:31:37:374--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 21:31:37:375--test_major.py:36--PRE_STEP：删除分组
+[INFO]2023-11-14 21:31:37:678--createGroup.py:137--获取分组下的便签：[]
+[STEP]2023-11-14 21:31:37:679--test_major.py:36--PRE_STEP：删除分组
+[STEP]2023-11-14 21:31:37:680--test_major.py:46--STEP: 新增分组的接口请求
+[INFO]2023-11-14 21:31:37:680--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/set/notegroup
+[INFO]2023-11-14 21:31:37:681--re.py:18--res body:{'groupName': '1699968697680_groupName', 'groupId': '1699968697680_groupId', 'order': 0}
+[INFO]2023-11-14 21:31:37:682--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:37:838--re.py:25--res code:200
+[INFO]2023-11-14 21:31:37:839--re.py:26--res res:{"responseTime":39,"updateTime":1699968699511}
+[STEP]2023-11-14 21:31:37:840--test_major.py:58--STEP:获取分组列表
+[INFO]2023-11-14 21:31:37:979--createGroup.py:97--获取分组列表：['1699968697680_groupId', '226793524']
+[STEP]2023-11-14 21:31:38:260--test_handles.py:51--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:38:260--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:38:261--re.py:18--res body:{'groupId': '1111111111111111111111111111', 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:31:38:262--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:38:415--re.py:25--res code:200
+[INFO]2023-11-14 21:31:38:416--re.py:26--res res:{"responseTime":0,"webNotes":[]}
+[STEP]2023-11-14 21:31:38:734--test_handles.py:62--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:38:881--createGroup.py:38--创建的分组：['1699968698734_groupId']
+[STEP]2023-11-14 21:31:38:882--test_handles.py:64--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:39:165--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968698882_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968698734_groupId'}]
+[STEP]2023-11-14 21:31:39:166--test_handles.py:66--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:39:166--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:39:167--re.py:18--res body:{'startIndex': 0, 'rows': 1, 'groupId': '1699968698734_groupId'}
+[INFO]2023-11-14 21:31:39:168--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:39:308--re.py:25--res code:200
+[INFO]2023-11-14 21:31:39:308--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699968698882_noteId","createTime":1699968700695,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1699968700695,"groupId":"1699968698734_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699968700837}]}
+[STEP]2023-11-14 21:31:39:590--test_handles.py:83--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:39:722--createGroup.py:38--创建的分组：['1699968699591_groupId']
+[STEP]2023-11-14 21:31:39:723--test_handles.py:85--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:40:010--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968699723_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968699591_groupId'}]
+[STEP]2023-11-14 21:31:40:011--test_handles.py:87--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:40:012--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:40:012--re.py:18--res body:{'startIndex': 1, 'rows': 1, 'groupId': '1699968699591_groupId'}
+[INFO]2023-11-14 21:31:40:013--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:40:160--re.py:25--res code:200
+[INFO]2023-11-14 21:31:40:161--re.py:26--res res:{"responseTime":0,"webNotes":[]}
+[STEP]2023-11-14 21:31:40:437--test_handles.py:101--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:40:600--createGroup.py:38--创建的分组：['1699968700437_groupId']
+[STEP]2023-11-14 21:31:40:600--test_handles.py:103--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:40:880--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968700601_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968700437_groupId'}]
+[STEP]2023-11-14 21:31:40:881--test_handles.py:105--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:40:882--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:40:882--re.py:18--res body:{'startIndex': 0, 'rows': 1, 'groupId': '1699968700437_groupId'}
+[INFO]2023-11-14 21:31:40:883--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d111849834', 'X-user-key': '22679353'}
+[INFO]2023-11-14 21:31:41:054--re.py:25--res code:401
+[INFO]2023-11-14 21:31:41:055--re.py:26--res res:{"errorCode":-2010,"errorMsg":""}
+[STEP]2023-11-14 21:31:41:327--test_input.py:62--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:41:328--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:41:329--re.py:18--res body:{'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:31:41:330--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:41:463--re.py:25--res code:500
+[INFO]2023-11-14 21:31:41:464--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]2023-11-14 21:31:41:755--test_input.py:74--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:41:756--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:41:757--re.py:18--res body:{'groupId': '', 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:31:41:757--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:41:877--re.py:25--res code:500
+[INFO]2023-11-14 21:31:41:878--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]2023-11-14 21:31:42:141--test_input.py:87--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:42:142--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:42:143--re.py:18--res body:{'groupId': None, 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:31:42:143--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:42:252--re.py:25--res code:500
+[INFO]2023-11-14 21:31:42:253--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]2023-11-14 21:31:42:532--test_input.py:101--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:42:709--createGroup.py:38--创建的分组：['1699968702532_groupId']
+[STEP]2023-11-14 21:31:42:711--test_input.py:103--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:42:976--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968702711_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968702532_groupId'}]
+[STEP]2023-11-14 21:31:42:976--test_input.py:105--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:42:977--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:42:978--re.py:18--res body:{'groupId': '1699968702532_groupId', 'rows': 10}
+[INFO]2023-11-14 21:31:42:979--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:43:124--re.py:25--res code:200
+[INFO]2023-11-14 21:31:43:125--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699968702711_noteId","createTime":1699968704514,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1699968704514,"groupId":"1699968702532_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699968704656}]}
+[STEP]2023-11-14 21:31:43:400--test_input.py:101--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:43:548--createGroup.py:38--创建的分组：['1699968703400_groupId']
+[STEP]2023-11-14 21:31:43:549--test_input.py:103--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:43:835--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968703549_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968703400_groupId'}]
+[STEP]2023-11-14 21:31:43:836--test_input.py:105--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:43:836--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:43:837--re.py:18--res body:{'groupId': '1699968703400_groupId'}
+[INFO]2023-11-14 21:31:43:838--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:44:004--re.py:25--res code:200
+[INFO]2023-11-14 21:31:44:005--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699968703549_noteId","createTime":1699968705360,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1699968705360,"groupId":"1699968703400_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699968705510}]}
+[STEP]2023-11-14 21:31:44:277--test_input.py:121--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:44:427--createGroup.py:38--创建的分组：['1699968704277_groupId']
+[STEP]2023-11-14 21:31:44:428--test_input.py:123--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:44:705--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968704428_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968704277_groupId'}]
+[STEP]2023-11-14 21:31:44:706--test_input.py:125--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:44:707--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:44:708--re.py:18--res body:{'groupId': '1699968704277_groupId', 'startIndex': None, 'rows': 10}
+[INFO]2023-11-14 21:31:44:709--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:44:846--re.py:25--res code:200
+[INFO]2023-11-14 21:31:44:847--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699968704428_noteId","createTime":1699968706249,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1699968706249,"groupId":"1699968704277_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699968706386}]}
+[STEP]2023-11-14 21:31:45:149--test_input.py:121--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:45:308--createGroup.py:38--创建的分组：['1699968705150_groupId']
+[STEP]2023-11-14 21:31:45:309--test_input.py:123--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:45:593--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968705310_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968705150_groupId'}]
+[STEP]2023-11-14 21:31:45:594--test_input.py:125--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:45:595--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:45:596--re.py:18--res body:{'groupId': '1699968705150_groupId', 'startIndex': '', 'rows': 10}
+[INFO]2023-11-14 21:31:45:596--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:45:724--re.py:25--res code:200
+[INFO]2023-11-14 21:31:45:724--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699968705310_noteId","createTime":1699968707130,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1699968707130,"groupId":"1699968705150_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699968707273}]}
+[STEP]2023-11-14 21:31:46:019--test_input.py:141--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:46:161--createGroup.py:38--创建的分组：['1699968706019_groupId']
+[STEP]2023-11-14 21:31:46:162--test_input.py:143--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:46:445--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968706162_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968706019_groupId'}]
+[STEP]2023-11-14 21:31:46:446--test_input.py:145--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:46:446--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:46:447--re.py:18--res body:{'groupId': '1699968706019_groupId', 'startIndex': 0, 'rows': None}
+[INFO]2023-11-14 21:31:46:448--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:46:610--re.py:25--res code:200
+[INFO]2023-11-14 21:31:46:611--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699968706162_noteId","createTime":1699968707972,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1699968707972,"groupId":"1699968706019_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699968708123}]}
+[STEP]2023-11-14 21:31:46:891--test_input.py:141--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:47:043--createGroup.py:38--创建的分组：['1699968706891_groupId']
+[STEP]2023-11-14 21:31:47:044--test_input.py:143--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:47:346--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968707044_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968706891_groupId'}]
+[STEP]2023-11-14 21:31:47:347--test_input.py:145--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:47:348--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:47:349--re.py:18--res body:{'groupId': '1699968706891_groupId', 'startIndex': 0, 'rows': ''}
+[INFO]2023-11-14 21:31:47:349--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:47:501--re.py:25--res code:200
+[INFO]2023-11-14 21:31:47:503--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699968707044_noteId","createTime":1699968708851,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1699968708851,"groupId":"1699968706891_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699968709019}]}
+[STEP]2023-11-14 21:31:47:794--test_input.py:161--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:47:939--createGroup.py:38--创建的分组：['1699968707794_groupId']
+[STEP]2023-11-14 21:31:47:939--test_input.py:163--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:48:228--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968707940_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968707794_groupId'}]
+[STEP]2023-11-14 21:31:48:229--test_input.py:165--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:48:230--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:48:231--re.py:18--res body:{'groupId': '1699968707794_groupId', 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:31:48:232--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:48:367--re.py:25--res code:200
+[INFO]2023-11-14 21:31:48:368--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699968707940_noteId","createTime":1699968709761,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1699968709761,"groupId":"1699968707794_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699968709906}]}
+[STEP]2023-11-14 21:31:48:638--test_input.py:161--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:48:780--createGroup.py:38--创建的分组：['1699968708638_groupId']
+[STEP]2023-11-14 21:31:48:781--test_input.py:163--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:49:059--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968708781_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968708638_groupId'}]
+[STEP]2023-11-14 21:31:49:060--test_input.py:165--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:49:061--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:49:062--re.py:18--res body:{'groupId': '1699968708638_groupId', 'startIndex': 1, 'rows': 10}
+[INFO]2023-11-14 21:31:49:063--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:49:207--re.py:25--res code:200
+[INFO]2023-11-14 21:31:49:208--re.py:26--res res:{"responseTime":0,"webNotes":[]}
+[STEP]2023-11-14 21:31:49:474--test_input.py:161--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:49:617--createGroup.py:38--创建的分组：['1699968709474_groupId']
+[STEP]2023-11-14 21:31:49:617--test_input.py:163--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:49:929--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968709617_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968709474_groupId'}]
+[STEP]2023-11-14 21:31:49:930--test_input.py:165--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:49:931--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:49:931--re.py:18--res body:{'groupId': '1699968709474_groupId', 'startIndex': 2, 'rows': 10}
+[INFO]2023-11-14 21:31:49:932--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:50:093--re.py:25--res code:200
+[INFO]2023-11-14 21:31:50:094--re.py:26--res res:{"responseTime":0,"webNotes":[]}
+[STEP]2023-11-14 21:31:50:384--test_input.py:161--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:50:550--createGroup.py:38--创建的分组：['1699968710384_groupId']
+[STEP]2023-11-14 21:31:50:551--test_input.py:163--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:50:914--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968710551_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968710384_groupId'}]
+[STEP]2023-11-14 21:31:50:915--test_input.py:165--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:50:916--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:50:916--re.py:18--res body:{'groupId': '1699968710384_groupId', 'startIndex': -1, 'rows': 10}
+[INFO]2023-11-14 21:31:50:917--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:51:062--re.py:25--res code:200
+[INFO]2023-11-14 21:31:51:063--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699968710551_noteId","createTime":1699968712365,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1699968712365,"groupId":"1699968710384_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699968712545}]}
+[STEP]2023-11-14 21:31:51:355--test_input.py:161--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:51:495--createGroup.py:38--创建的分组：['1699968711355_groupId']
+[STEP]2023-11-14 21:31:51:496--test_input.py:163--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:51:766--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968711496_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968711355_groupId'}]
+[STEP]2023-11-14 21:31:51:768--test_input.py:165--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:51:768--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:51:769--re.py:18--res body:{'groupId': '1699968711355_groupId', 'startIndex': 1.5, 'rows': 10}
+[INFO]2023-11-14 21:31:51:770--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:51:909--re.py:25--res code:200
+[INFO]2023-11-14 21:31:51:910--re.py:26--res res:{"responseTime":0,"webNotes":[]}
+[STEP]2023-11-14 21:31:52:193--test_input.py:161--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:52:322--createGroup.py:38--创建的分组：['1699968712193_groupId']
+[STEP]2023-11-14 21:31:52:323--test_input.py:163--PRE-STEP：在分组下新增一个便签
+[STEP]2023-11-14 21:31:57:632--test_input.py:177--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:57:771--createGroup.py:38--创建的分组：['1699968717632_groupId']
+[STEP]2023-11-14 21:31:57:772--test_input.py:179--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:58:050--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968717772_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968717632_groupId'}]
+[STEP]2023-11-14 21:31:58:051--test_input.py:181--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:58:052--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:58:052--re.py:18--res body:{'groupId': '1699968717632_groupId', 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:31:58:053--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:58:209--re.py:25--res code:200
+[INFO]2023-11-14 21:31:58:209--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699968717772_noteId","createTime":1699968719590,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1699968719590,"groupId":"1699968717632_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699968719726}]}
+[STEP]2023-11-14 21:31:58:493--test_input.py:177--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:58:637--createGroup.py:38--创建的分组：['1699968718493_groupId']
+[STEP]2023-11-14 21:31:58:638--test_input.py:179--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:58:900--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968718638_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968718493_groupId'}]
+[STEP]2023-11-14 21:31:58:901--test_input.py:181--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:58:902--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:58:902--re.py:18--res body:{'groupId': '1699968718493_groupId', 'startIndex': 1, 'rows': 10}
+[INFO]2023-11-14 21:31:58:903--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:59:053--re.py:25--res code:200
+[INFO]2023-11-14 21:31:59:054--re.py:26--res res:{"responseTime":0,"webNotes":[]}
+[STEP]2023-11-14 21:31:59:325--test_input.py:177--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:31:59:467--createGroup.py:38--创建的分组：['1699968719326_groupId']
+[STEP]2023-11-14 21:31:59:467--test_input.py:179--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:31:59:747--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968719467_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968719326_groupId'}]
+[STEP]2023-11-14 21:31:59:748--test_input.py:181--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:31:59:749--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:31:59:749--re.py:18--res body:{'groupId': '1699968719326_groupId', 'startIndex': 2, 'rows': 10}
+[INFO]2023-11-14 21:31:59:750--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:31:59:908--re.py:25--res code:200
+[INFO]2023-11-14 21:31:59:909--re.py:26--res res:{"responseTime":0,"webNotes":[]}
+[STEP]2023-11-14 21:32:00:181--test_input.py:177--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:32:00:314--createGroup.py:38--创建的分组：['1699968720181_groupId']
+[STEP]2023-11-14 21:32:00:315--test_input.py:179--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:32:00:594--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968720315_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968720181_groupId'}]
+[STEP]2023-11-14 21:32:00:595--test_input.py:181--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:32:00:596--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:32:00:597--re.py:18--res body:{'groupId': '1699968720181_groupId', 'startIndex': -1, 'rows': 10}
+[INFO]2023-11-14 21:32:00:597--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:00:755--re.py:25--res code:200
+[INFO]2023-11-14 21:32:00:756--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699968720315_noteId","createTime":1699968722132,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1699968722132,"groupId":"1699968720181_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699968722271}]}
+[STEP]2023-11-14 21:32:01:068--test_input.py:177--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:32:01:200--createGroup.py:38--创建的分组：['1699968721068_groupId']
+[STEP]2023-11-14 21:32:01:201--test_input.py:179--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:32:01:511--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968721201_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968721068_groupId'}]
+[STEP]2023-11-14 21:32:01:511--test_input.py:181--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:32:01:512--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:32:01:513--re.py:18--res body:{'groupId': '1699968721068_groupId', 'startIndex': 1.5, 'rows': 10}
+[INFO]2023-11-14 21:32:01:514--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:01:655--re.py:25--res code:200
+[INFO]2023-11-14 21:32:01:656--re.py:26--res res:{"responseTime":0,"webNotes":[]}
+[STEP]2023-11-14 21:32:01:928--test_input.py:177--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:32:02:071--createGroup.py:38--创建的分组：['1699968721928_groupId']
+[STEP]2023-11-14 21:32:02:072--test_input.py:179--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:32:02:376--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968722072_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968721928_groupId'}]
+[STEP]2023-11-14 21:32:02:377--test_input.py:181--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:32:02:378--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:32:02:379--re.py:18--res body:{'groupId': '1699968721928_groupId', 'startIndex': '1', 'rows': 10}
+[INFO]2023-11-14 21:32:02:379--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:02:508--re.py:25--res code:200
+[INFO]2023-11-14 21:32:02:509--re.py:26--res res:{"responseTime":0,"webNotes":[]}
+[STEP]2023-11-14 21:32:02:784--test_input.py:193--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:32:02:934--createGroup.py:38--创建的分组：['1699968722784_groupId']
+[STEP]2023-11-14 21:32:02:935--test_input.py:195--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:32:03:197--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968722935_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968722784_groupId'}]
+[STEP]2023-11-14 21:32:03:198--test_input.py:197--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:32:03:199--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:32:03:200--re.py:18--res body:{'groupId': 1111111, 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:32:03:201--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:03:336--re.py:25--res code:200
+[INFO]2023-11-14 21:32:03:337--re.py:26--res res:{"responseTime":0,"webNotes":[]}
+[STEP]2023-11-14 21:32:03:610--test_input.py:193--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:32:03:729--createGroup.py:38--创建的分组：['1699968723610_groupId']
+[STEP]2023-11-14 21:32:03:729--test_input.py:195--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:32:04:024--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968723729_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968723610_groupId'}]
+[STEP]2023-11-14 21:32:04:025--test_input.py:197--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:32:04:026--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:32:04:027--re.py:18--res body:{'groupId': 'ZhongWen', 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:32:04:027--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:04:152--re.py:25--res code:200
+[INFO]2023-11-14 21:32:04:153--re.py:26--res res:{"responseTime":0,"webNotes":[]}
+[STEP]2023-11-14 21:32:04:427--test_input.py:193--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:32:04:581--createGroup.py:38--创建的分组：['1699968724427_groupId']
+[STEP]2023-11-14 21:32:04:582--test_input.py:195--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:32:04:863--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968724582_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968724427_groupId'}]
+[STEP]2023-11-14 21:32:04:864--test_input.py:197--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:32:04:865--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:32:04:865--re.py:18--res body:{'groupId': '中文', 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:32:04:866--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:05:023--re.py:25--res code:500
+[INFO]2023-11-14 21:32:05:023--re.py:26--res res:{"errorCode":-7,"errorMsg":"org.springframework.jdbc.UncategorizedSQLException: \n### Error querying database.  Cause: java.sql.SQLException: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='\n### The error may exist in class path resource [mapping/NoteContentMapper.xml]\n### The error may involve defaultParameterMap\n### The error occurred while setting parameters\n### SQL: select       ni.noteId,       ni.createTime,       ni.star,       ni.remindTime,       ni.remindType,       ni.infoVersion,       ni.infoUpdateTime,       ni.groupId,       nc.title,       nc.summary,       nc.thumbnail,       nc.contentVersion,       nc.contentUpdateTime     from notecontent nc     join noteinfo ni on nc.userId = ni.userId and nc.noteId = ni.noteId     where ni.userId = ? and ni.groupId = ?     and ni.valid = 1 and ni.remindType = 0 and remindTime = 0     order by IFNULL(ni.star, 0) DESC, nc.contentUpdateTime desc     limit ?, ?\n### Cause: java.sql.SQLException: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='\n; uncategorized SQLException; SQL state [HY000]; error code [1267]; Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='; nested exception is java.sql.SQLException: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)\n\tat org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)\n\tat org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)\n\tat com.sun.proxy.$Proxy98.selectList(Unknown Source)\n\tat org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)\n\tat org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:139)\n\tat org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)\n\tat org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)\n\tat com.sun.proxy.$Proxy104.selectGroupWebNotes(Unknown Source)\n\tat cn.wps.note.api.NoteApi.getWebNotes(NoteApi.java:419)\n\tat cn.wps.note.service.old.NoteControllerService.getNotesInGroup(NoteControllerService.java:166)\n\tat cn.wps.note.controller.old.NoteController.getNotesInGroup(NoteController.java:506)\n\tat cn.wps.note.controller.old.NoteController$$FastClassBySpringCGLIB$$19b69b22.invoke(<generated>)\n\tat org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)\n\tat org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)\n\tat org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)\n\tat cn.wps.note.interceptor.LogAop.around(LogAop.java:30)\n\tat sun.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)\n\tat org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)\n\tat org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)\n\tat org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)\n\tat org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)\n\tat cn.wps.note.controller.old.NoteController$$EnhancerBySpringCGLIB$$74b5e933.getNotesInGroup(<generated>)\n\tat sun.reflect.GeneratedMethodAccessor299.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:660)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:741)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: java.sql.SQLException: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='\n\tat com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)\n\tat com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3970)\n\tat com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3906)\n\tat com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)\n\tat com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2677)\n\tat com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)\n\tat com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)\n\tat com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)\n\tat com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3409)\n\tat com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)\n\tat com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3407)\n\tat com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)\n\tat com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:498)\n\tat org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:63)\n\tat org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)\n\tat org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)\n\tat org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:326)\n\tat org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)\n\tat org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)\n\tat com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:108)\n\tat org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)\n\tat com.sun.proxy.$Proxy142.query(Unknown Source)\n\tat org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)\n\tat org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)\n\tat sun.reflect.GeneratedMethodAccessor70.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)\n\t... 82 more\n"}
+[STEP]2023-11-14 21:32:05:356--test_input.py:193--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:32:05:502--createGroup.py:38--创建的分组：['1699968725356_groupId']
+[STEP]2023-11-14 21:32:05:503--test_input.py:195--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:32:05:818--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968725503_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968725356_groupId'}]
+[STEP]2023-11-14 21:32:05:820--test_input.py:197--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:32:05:820--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:32:05:821--re.py:18--res body:{'groupId': "中文 'or'1=1", 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:32:05:822--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:05:947--re.py:25--res code:500
+[INFO]2023-11-14 21:32:05:948--re.py:26--res res:{"errorCode":-7,"errorMsg":"org.springframework.jdbc.UncategorizedSQLException: \n### Error querying database.  Cause: java.sql.SQLException: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='\n### The error may exist in class path resource [mapping/NoteContentMapper.xml]\n### The error may involve defaultParameterMap\n### The error occurred while setting parameters\n### SQL: select       ni.noteId,       ni.createTime,       ni.star,       ni.remindTime,       ni.remindType,       ni.infoVersion,       ni.infoUpdateTime,       ni.groupId,       nc.title,       nc.summary,       nc.thumbnail,       nc.contentVersion,       nc.contentUpdateTime     from notecontent nc     join noteinfo ni on nc.userId = ni.userId and nc.noteId = ni.noteId     where ni.userId = ? and ni.groupId = ?     and ni.valid = 1 and ni.remindType = 0 and remindTime = 0     order by IFNULL(ni.star, 0) DESC, nc.contentUpdateTime desc     limit ?, ?\n### Cause: java.sql.SQLException: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='\n; uncategorized SQLException; SQL state [HY000]; error code [1267]; Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='; nested exception is java.sql.SQLException: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)\n\tat org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)\n\tat org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)\n\tat com.sun.proxy.$Proxy98.selectList(Unknown Source)\n\tat org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)\n\tat org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:139)\n\tat org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)\n\tat org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)\n\tat com.sun.proxy.$Proxy104.selectGroupWebNotes(Unknown Source)\n\tat cn.wps.note.api.NoteApi.getWebNotes(NoteApi.java:419)\n\tat cn.wps.note.service.old.NoteControllerService.getNotesInGroup(NoteControllerService.java:166)\n\tat cn.wps.note.controller.old.NoteController.getNotesInGroup(NoteController.java:506)\n\tat cn.wps.note.controller.old.NoteController$$FastClassBySpringCGLIB$$19b69b22.invoke(<generated>)\n\tat org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)\n\tat org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)\n\tat org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)\n\tat cn.wps.note.interceptor.LogAop.around(LogAop.java:30)\n\tat sun.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)\n\tat org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)\n\tat org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)\n\tat org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)\n\tat org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)\n\tat cn.wps.note.controller.old.NoteController$$EnhancerBySpringCGLIB$$74b5e933.getNotesInGroup(<generated>)\n\tat sun.reflect.GeneratedMethodAccessor299.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)\n\tat org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:660)\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:741)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.lang.Thread.run(Thread.java:748)\nCaused by: java.sql.SQLException: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='\n\tat com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)\n\tat com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3970)\n\tat com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3906)\n\tat com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)\n\tat com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2677)\n\tat com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2549)\n\tat com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)\n\tat com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)\n\tat com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3409)\n\tat com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)\n\tat com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3407)\n\tat com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)\n\tat com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:498)\n\tat org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:63)\n\tat org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)\n\tat org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)\n\tat org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:326)\n\tat org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)\n\tat org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)\n\tat com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:108)\n\tat org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)\n\tat com.sun.proxy.$Proxy142.query(Unknown Source)\n\tat org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)\n\tat org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)\n\tat sun.reflect.GeneratedMethodAccessor70.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)\n\t... 82 more\n"}
+[STEP]2023-11-14 21:32:06:265--test_input.py:193--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:32:06:401--createGroup.py:38--创建的分组：['1699968726265_groupId']
+[STEP]2023-11-14 21:32:06:403--test_input.py:195--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:32:06:738--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968726403_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968726265_groupId'}]
+[STEP]2023-11-14 21:32:06:739--test_input.py:197--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:32:06:740--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:32:06:741--re.py:18--res body:{'groupId': True, 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:32:06:741--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:06:889--re.py:25--res code:200
+[INFO]2023-11-14 21:32:06:889--re.py:26--res res:{"responseTime":0,"webNotes":[]}
+[STEP]2023-11-14 21:32:07:182--test_input.py:208--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:32:07:326--createGroup.py:38--创建的分组：['1699968727182_groupId']
+[STEP]2023-11-14 21:32:07:327--test_input.py:210--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:32:07:607--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968727327_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968727182_groupId'}]
+[STEP]2023-11-14 21:32:07:608--test_input.py:212--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:32:07:609--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:32:07:609--re.py:18--res body:{'groupId': '1699968727182_groupId', 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:32:07:610--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '1'}
+[INFO]2023-11-14 21:32:07:747--re.py:25--res code:412
+[INFO]2023-11-14 21:32:07:748--re.py:26--res res:{"errorCode":-1011,"errorMsg":"user change!"}
+[STEP]2023-11-14 21:32:08:027--test_input.py:225--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:32:08:167--createGroup.py:38--创建的分组：['1699968728027_groupId']
+[STEP]2023-11-14 21:32:08:168--test_input.py:227--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:32:08:459--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968728168_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968728027_groupId'}]
+[STEP]2023-11-14 21:32:08:460--test_input.py:229--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:32:08:461--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:32:08:461--re.py:18--res body:{'groupId': '1699968728027_groupId', 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:32:08:462--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': ''}
+[INFO]2023-11-14 21:32:08:580--re.py:25--res code:412
+[INFO]2023-11-14 21:32:08:581--re.py:26--res res:{"errorCode":-1011,"errorMsg":"X-user-key header Requested!"}
+[STEP]2023-11-14 21:32:08:861--test_input.py:242--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:32:09:000--createGroup.py:38--创建的分组：['1699968728862_groupId']
+[STEP]2023-11-14 21:32:09:001--test_input.py:244--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:32:09:289--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968729001_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968728862_groupId'}]
+[STEP]2023-11-14 21:32:09:290--test_input.py:246--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:32:09:290--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:32:09:291--re.py:18--res body:{'groupId': '1699968728862_groupId', 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:32:09:292--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=111111111', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:09:438--re.py:25--res code:401
+[INFO]2023-11-14 21:32:09:439--re.py:26--res res:{"errorCode":-2010,"errorMsg":""}
+[STEP]2023-11-14 21:32:09:997--test_input.py:259--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:32:10:145--createGroup.py:38--创建的分组：['1699968729997_groupId']
+[STEP]2023-11-14 21:32:10:145--test_input.py:261--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:32:15:287--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968730145_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968729997_groupId'}]
+[STEP]2023-11-14 21:32:15:287--test_input.py:263--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:32:15:288--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:32:15:289--re.py:18--res body:{'groupId': '1699968729997_groupId', 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:32:15:289--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:15:431--re.py:25--res code:401
+[INFO]2023-11-14 21:32:15:432--re.py:26--res res:{"errorCode":-2010,"errorMsg":""}
+[STEP]2023-11-14 21:32:15:723--test_major.py:51--PRE-STEP：新增一个分组
+[INFO]2023-11-14 21:32:15:876--createGroup.py:38--创建的分组：['1699968735723_groupId']
+[STEP]2023-11-14 21:32:15:877--test_major.py:53--PRE-STEP：在分组下新增一个便签
+[INFO]2023-11-14 21:32:16:170--createGroup.py:76--在分组下创建的便签数据是[{'noteId': '1699968735877_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'groupId': '1699968735723_groupId'}]
+[STEP]2023-11-14 21:32:16:171--test_major.py:55--STEP: 查看分组下便签的接口请求
+[INFO]2023-11-14 21:32:16:172--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/web/getnotes/group
+[INFO]2023-11-14 21:32:16:172--re.py:18--res body:{'groupId': '1699968735723_groupId', 'startIndex': 0, 'rows': 10}
+[INFO]2023-11-14 21:32:16:173--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:16:313--re.py:25--res code:200
+[INFO]2023-11-14 21:32:16:314--re.py:26--res res:{"responseTime":0,"webNotes":[{"noteId":"1699968735877_noteId","createTime":1699968737703,"star":0,"remindTime":0,"remindType":0,"infoVersion":1,"infoUpdateTime":1699968737703,"groupId":"1699968735723_groupId","title":"oZIyHTsF3CyIESOiGvuiEQ==","summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","thumbnail":null,"contentVersion":1,"contentUpdateTime":1699968737845}]}
+[STEP]2023-11-14 21:32:16:589--test_handles.py:52--STEP: 上传更新便签主体、内容
+[INFO]2023-11-14 21:32:16:864--createNotes.py:53--[{'noteId': '1699968736589_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA='}]
+[STEP]2023-11-14 21:32:16:865--test_handles.py:54--STEP: 获取便签内容的接口请求
+[INFO]2023-11-14 21:32:16:866--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]2023-11-14 21:32:16:866--re.py:18--res body:{'noteIds': ['1699968736589_noteId']}
+[INFO]2023-11-14 21:32:16:867--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:17:004--re.py:25--res code:200
+[INFO]2023-11-14 21:32:17:005--re.py:26--res res:{"responseTime":19,"noteBodies":[{"summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","noteId":"1699968736589_noteId","infoNoteId":"1699968736589_noteId","bodyType":0,"body":"R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=","contentVersion":1,"contentUpdateTime":1699968738546,"title":"oZIyHTsF3CyIESOiGvuiEQ==","valid":1}]}
+[INFO]2023-11-14 21:32:17:136--getAllNotes.py:30--用户192211934首页所有便签id:[]
+[STEP]2023-11-14 21:32:17:548--test_input.py:53--STEP: 获取便签内容的接口请求
+[INFO]2023-11-14 21:32:17:549--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]2023-11-14 21:32:17:549--re.py:18--res body:{}
+[INFO]2023-11-14 21:32:17:550--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:17:658--re.py:25--res code:500
+[INFO]2023-11-14 21:32:17:659--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]2023-11-14 21:32:17:936--test_input.py:64--STEP: 获取便签内容
+[INFO]2023-11-14 21:32:17:937--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]2023-11-14 21:32:17:938--re.py:18--res body:{'noteIds': None}
+[INFO]2023-11-14 21:32:17:939--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:18:064--re.py:25--res code:500
+[INFO]2023-11-14 21:32:18:065--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]2023-11-14 21:32:18:356--test_input.py:64--STEP: 获取便签内容
+[INFO]2023-11-14 21:32:18:357--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]2023-11-14 21:32:18:357--re.py:18--res body:{'noteIds': ''}
+[INFO]2023-11-14 21:32:18:358--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:18:462--re.py:25--res code:500
+[INFO]2023-11-14 21:32:18:463--re.py:26--res res:{"errorCode":-7,"errorMsg":""}
+[STEP]2023-11-14 21:32:18:751--test_input.py:75--STEP: 获取便签内容
+[INFO]2023-11-14 21:32:18:751--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]2023-11-14 21:32:18:752--re.py:18--res body:{'noteIds': ['111']}
+[INFO]2023-11-14 21:32:18:753--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:18:922--re.py:25--res code:200
+[INFO]2023-11-14 21:32:18:923--re.py:26--res res:{"responseTime":25,"noteBodies":[]}
+[STEP]2023-11-14 21:32:19:195--test_input.py:90--STEP: 获取便签内容
+[INFO]2023-11-14 21:32:19:196--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]2023-11-14 21:32:19:197--re.py:18--res body:{'noteIds': ['111']}
+[INFO]2023-11-14 21:32:19:197--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:19:368--re.py:25--res code:200
+[INFO]2023-11-14 21:32:19:369--re.py:26--res res:{"responseTime":39,"noteBodies":[]}
+[STEP]2023-11-14 21:32:19:663--test_input.py:108--STEP: 获取便签内容的接口请求
+[INFO]2023-11-14 21:32:19:664--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]2023-11-14 21:32:19:664--re.py:18--res body:{'noteId': ['1']}
+[INFO]2023-11-14 21:32:19:665--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '1'}
+[STEP]2023-11-14 21:32:22:983--test_input.py:120--STEP: 上传更新便签内容的接口请求
+[INFO]2023-11-14 21:32:22:984--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]2023-11-14 21:32:22:985--re.py:18--res body:{'noteId': ['1']}
+[INFO]2023-11-14 21:32:22:985--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': ''}
+[INFO]2023-11-14 21:32:23:107--re.py:25--res code:500
+[INFO]2023-11-14 21:32:23:108--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]2023-11-14 21:32:23:389--test_input.py:131--STEP: 上传更新便签内容的接口请求
+[INFO]2023-11-14 21:32:23:390--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]2023-11-14 21:32:23:391--re.py:18--res body:{'noteId': ['1']}
+[INFO]2023-11-14 21:32:23:391--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=111111111', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:23:517--re.py:25--res code:500
+[INFO]2023-11-14 21:32:23:518--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]2023-11-14 21:32:23:795--test_input.py:142--STEP: 上传更新便签内容的接口请求
+[INFO]2023-11-14 21:32:23:796--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]2023-11-14 21:32:23:796--re.py:18--res body:{'noteId': ['1']}
+[INFO]2023-11-14 21:32:23:797--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:23:926--re.py:25--res code:500
+[INFO]2023-11-14 21:32:23:927--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]2023-11-14 21:32:24:208--test_major.py:50--STEP: 上传更新便签主体、内容
+[INFO]2023-11-14 21:32:24:773--createNotes.py:53--[{'noteId': '1699968744209_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA='}, {'noteId': '1699968744489_noteId', 'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA='}]
+[STEP]2023-11-14 21:32:24:774--test_major.py:52--STEP: 获取便签内容的接口请求
+[INFO]2023-11-14 21:32:24:774--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]2023-11-14 21:32:24:775--re.py:18--res body:{'noteIds': ['1699968744209_noteId']}
+[INFO]2023-11-14 21:32:24:776--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:24:941--re.py:25--res code:200
+[INFO]2023-11-14 21:32:24:942--re.py:26--res res:{"responseTime":38,"noteBodies":[{"summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","noteId":"1699968744209_noteId","infoNoteId":"1699968744209_noteId","bodyType":0,"body":"R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=","contentVersion":1,"contentUpdateTime":1699968746172,"title":"oZIyHTsF3CyIESOiGvuiEQ==","valid":1}]}
+[INFO]2023-11-14 21:32:24:943--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]2023-11-14 21:32:24:943--re.py:18--res body:{'noteIds': ['1699968744489_noteId']}
+[INFO]2023-11-14 21:32:24:944--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:25:084--re.py:25--res code:200
+[INFO]2023-11-14 21:32:25:085--re.py:26--res res:{"responseTime":25,"noteBodies":[{"summary":"R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=","noteId":"1699968744489_noteId","infoNoteId":"1699968744489_noteId","bodyType":0,"body":"R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=","contentVersion":1,"contentUpdateTime":1699968746451,"title":"oZIyHTsF3CyIESOiGvuiEQ==","valid":1}]}
+[STEP]2023-11-14 21:32:25:629--test_handles.py:39--STEP: 上传更新便签主体
+[STEP]2023-11-14 21:32:25:757--test_handles.py:41--STEP: 上传更新便签内容的接口请求
+[INFO]2023-11-14 21:32:25:758--re.py:17--res url:http://note-api.wps.cn/v3_notesvr_set_noteinfo
+[INFO]2023-11-14 21:32:25:759--re.py:18--res body:{'noteId': 'noteId', 'star': 0, 'remindTime': 1699282800000, 'remindType': 0, 'groupId': 'groupId'}
+[INFO]2023-11-14 21:32:25:759--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:25:871--re.py:25--res code:404
+[INFO]2023-11-14 21:32:25:872--re.py:26--res res:{"error_msg":"failed to match any routes"}
+
+[STEP]2023-11-14 21:32:26:149--test_input.py:125--STEP: 上传更新便签主体
+[STEP]2023-11-14 21:32:26:308--test_input.py:127--STEP: 上传更新便签内容的接口请求
+[INFO]2023-11-14 21:32:26:308--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2023-11-14 21:32:26:309--re.py:18--res body:{'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'localContentVersion': 1, 'bodyType': 0}
+[INFO]2023-11-14 21:32:26:310--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:26:418--re.py:25--res code:500
+[INFO]2023-11-14 21:32:26:419--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]2023-11-14 21:32:26:699--test_input.py:125--STEP: 上传更新便签主体
+[STEP]2023-11-14 21:32:26:909--test_input.py:127--STEP: 上传更新便签内容的接口请求
+[INFO]2023-11-14 21:32:26:910--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2023-11-14 21:32:26:911--re.py:18--res body:{'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'localContentVersion': 1, 'noteId': '1699968746699_noteId', 'bodyType': 0}
+[INFO]2023-11-14 21:32:26:911--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:27:103--re.py:25--res code:200
+[INFO]2023-11-14 21:32:27:104--re.py:26--res res:{"responseTime":66,"contentVersion":1,"contentUpdateTime":1699968748753}
+[STEP]2023-11-14 21:32:27:575--test_input.py:125--STEP: 上传更新便签主体
+[STEP]2023-11-14 21:32:27:720--test_input.py:127--STEP: 上传更新便签内容的接口请求
+[INFO]2023-11-14 21:32:27:720--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2023-11-14 21:32:27:721--re.py:18--res body:{'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'localContentVersion': 1, 'noteId': '1699968747575_noteId', 'bodyType': 0}
+[INFO]2023-11-14 21:32:27:723--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:27:890--re.py:25--res code:200
+[INFO]2023-11-14 21:32:27:891--re.py:26--res res:{"responseTime":47,"contentVersion":1,"contentUpdateTime":1699968749575}
+[STEP]2023-11-14 21:32:28:331--test_input.py:125--STEP: 上传更新便签主体
+[STEP]2023-11-14 21:32:28:462--test_input.py:127--STEP: 上传更新便签内容的接口请求
+[INFO]2023-11-14 21:32:28:463--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2023-11-14 21:32:28:463--re.py:18--res body:{'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'noteId': '1699968748331_noteId', 'bodyType': 0}
+[INFO]2023-11-14 21:32:28:464--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:28:634--re.py:25--res code:200
+[INFO]2023-11-14 21:32:28:636--re.py:26--res res:{"responseTime":39,"contentVersion":1,"contentUpdateTime":1699968750305}
+[STEP]2023-11-14 21:32:29:114--test_input.py:125--STEP: 上传更新便签主体
+[STEP]2023-11-14 21:32:29:265--test_input.py:127--STEP: 上传更新便签内容的接口请求
+[INFO]2023-11-14 21:32:29:266--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2023-11-14 21:32:29:267--re.py:18--res body:{'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'localContentVersion': 1, 'noteId': '1699968749114_noteId'}
+[INFO]2023-11-14 21:32:29:267--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:29:426--re.py:25--res code:200
+[INFO]2023-11-14 21:32:29:427--re.py:26--res res:{"responseTime":35,"contentVersion":1,"contentUpdateTime":1699968751103}
+[STEP]2023-11-14 21:32:29:862--test_major.py:39--STEP: 上传更新便签主体
+[STEP]2023-11-14 21:32:29:997--test_major.py:41--STEP: 上传更新便签内容的接口请求
+[INFO]2023-11-14 21:32:29:998--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]2023-11-14 21:32:29:999--re.py:18--res body:{'title': 'oZIyHTsF3CyIESOiGvuiEQ==', 'summary': 'R/RUQ/JH1ma9R2FVaaUzAphoLyPYh3RVXs45PBwgMOA=', 'body': 'R/RUQ/JH1ma9R2FVaaUzAtwlXImqcX++1wS1GmEpgL8=', 'localContentVersion': 1, 'noteId': '1699968749862_noteId', 'bodyType': 0}
+[INFO]2023-11-14 21:32:29:999--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:30:157--re.py:25--res code:200
+[INFO]2023-11-14 21:32:30:158--re.py:26--res res:{"responseTime":38,"contentVersion":1,"contentUpdateTime":1699968751836}
+[INFO]2023-11-14 21:32:30:290--getAllNotes.py:30--用户226793524首页所有便签id:['1699968749862_noteId']
+[STEP]2023-11-14 21:32:30:735--test_handles.py:36--STEP: 上传更新便签主体的接口请求——star为0
+[INFO]2023-11-14 21:32:30:735--re.py:17--res url:http://note-api.wps.cn/v3_notesvr_set_noteinfo
+[INFO]2023-11-14 21:32:30:736--re.py:18--res body:{'noteId': '1699968750735_noteId', 'star': 0}
+[INFO]2023-11-14 21:32:30:737--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:30:834--re.py:25--res code:404
+[INFO]2023-11-14 21:32:30:835--re.py:26--res res:{"error_msg":"failed to match any routes"}
+
+[STEP]2023-11-14 21:32:31:117--test_handles.py:48--STEP: 上传更新便签主体的接口请求——star为1
+[INFO]2023-11-14 21:32:31:118--re.py:17--res url:http://note-api.wps.cn/v3_notesvr_set_noteinfo
+[INFO]2023-11-14 21:32:31:119--re.py:18--res body:{'noteId': '1699968751117_noteId', 'star': 1}
+[INFO]2023-11-14 21:32:31:120--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:31:244--re.py:25--res code:404
+[INFO]2023-11-14 21:32:31:245--re.py:26--res res:{"error_msg":"failed to match any routes"}
+
+[STEP]2023-11-14 21:32:31:520--test_handles.py:60--STEP: 上传更新便签主体的接口请求——remindType为0
+[INFO]2023-11-14 21:32:31:521--re.py:17--res url:http://note-api.wps.cn/v3_notesvr_set_noteinfo
+[INFO]2023-11-14 21:32:31:522--re.py:18--res body:{'noteId': '1699968751520_noteId', 'remindTime': 0, 'remindType': 0}
+[INFO]2023-11-14 21:32:31:522--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:31:620--re.py:25--res code:404
+[INFO]2023-11-14 21:32:31:620--re.py:26--res res:{"error_msg":"failed to match any routes"}
+
+[STEP]2023-11-14 21:32:31:903--test_handles.py:73--STEP: 上传更新便签主体的接口请求——remindType为1
+[INFO]2023-11-14 21:32:31:904--re.py:17--res url:http://note-api.wps.cn/v3_notesvr_set_noteinfo
+[INFO]2023-11-14 21:32:31:907--re.py:18--res body:{'noteId': '1699968751904_noteId', 'remindTime': 170000000000, 'remindType': 1}
+[INFO]2023-11-14 21:32:31:908--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:32:008--re.py:25--res code:404
+[INFO]2023-11-14 21:32:32:009--re.py:26--res res:{"error_msg":"failed to match any routes"}
+
+[STEP]2023-11-14 21:32:32:286--test_handles.py:86--STEP: 上传更新便签主体的接口请求——remindType为2
+[INFO]2023-11-14 21:32:32:287--re.py:17--res url:http://note-api.wps.cn/v3_notesvr_set_noteinfo
+[INFO]2023-11-14 21:32:32:288--re.py:18--res body:{'noteId': '1699968752286_noteId', 'remindTime': 170000000000, 'remindType': 2}
+[INFO]2023-11-14 21:32:32:288--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:32:413--re.py:25--res code:404
+[INFO]2023-11-14 21:32:32:414--re.py:26--res res:{"error_msg":"failed to match any routes"}
+
+[STEP]2023-11-14 21:32:32:707--test_handles.py:100--STEP: 上传更新便签主体的接口请求
+[INFO]2023-11-14 21:32:32:707--re.py:17--res url:http://note-api.wps.cn/v3_notesvr_set_noteinfo
+[INFO]2023-11-14 21:32:32:708--re.py:18--res body:{'noteId': '1699968752707_noteId', 'star': 1}
+[INFO]2023-11-14 21:32:32:709--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d111849834', 'X-user-key': '22679353'}
+[INFO]2023-11-14 21:32:32:805--re.py:25--res code:404
+[INFO]2023-11-14 21:32:32:806--re.py:26--res res:{"error_msg":"failed to match any routes"}
+
+[STEP]2023-11-14 21:32:33:083--test_major.py:39--STEP: 上传更新便签主体的接口请求——普通便签
+[INFO]2023-11-14 21:32:33:084--re.py:17--res url:http://note-api.wps.cn/v3_notesvr_set_noteinfo
+[INFO]2023-11-14 21:32:33:085--re.py:18--res body:{'noteId': '1699968753083_noteId', 'star': 0}
+[INFO]2023-11-14 21:32:33:085--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:33:185--re.py:25--res code:404
+[INFO]2023-11-14 21:32:33:185--re.py:26--res res:{"error_msg":"failed to match any routes"}
+
+[STEP]2023-11-14 21:32:33:466--test_major.py:51--STEP: 上传更新便签主体的接口请求——日历便签
+[INFO]2023-11-14 21:32:33:467--re.py:17--res url:http://note-api.wps.cn/v3_notesvr_set_noteinfo
+[INFO]2023-11-14 21:32:33:468--re.py:18--res body:{'noteId': '1699968753466_noteId', 'star': 0, 'remindTime': 1699282800000, 'remindType': 0}
+[INFO]2023-11-14 21:32:33:468--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:33:569--re.py:25--res code:404
+[INFO]2023-11-14 21:32:33:570--re.py:26--res res:{"error_msg":"failed to match any routes"}
+
+[STEP]2023-11-14 21:32:33:851--test_major.py:63--STEP: 上传更新便签主体的接口请求——分组便签
+[INFO]2023-11-14 21:32:33:852--re.py:17--res url:http://note-api.wps.cn/v3_notesvr_set_noteinfo
+[INFO]2023-11-14 21:32:33:853--re.py:18--res body:{'noteId': '1699968753851_noteId', 'star': 0, 'groupId': '1699968753851_groupId'}
+[INFO]2023-11-14 21:32:33:854--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:32:33:969--re.py:25--res code:404
+[INFO]2023-11-14 21:32:33:971--re.py:26--res res:{"error_msg":"failed to match any routes"}
+
+[STEP]2023-11-14 21:33:48:805--test_input.py:40--STEP: 便签软删除的接口请求
+[INFO]2023-11-14 21:33:48:806--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/delete
+[INFO]2023-11-14 21:33:48:808--re.py:18--res body:{}
+[INFO]2023-11-14 21:33:48:809--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:33:48:912--re.py:25--res code:500
+[INFO]2023-11-14 21:33:48:913--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
+[STEP]2023-11-14 21:35:10:157--test_input.py:40--STEP: 便签软删除的接口请求
+[INFO]2023-11-14 21:35:10:158--re.py:17--res url:http://note-api.wps.cn/v3/notesvr/delete
+[INFO]2023-11-14 21:35:10:159--re.py:18--res body:{}
+[INFO]2023-11-14 21:35:10:160--re.py:19--res headers:{'Content-Type': 'application/json', 'Cookie': 'wps_sid=V02SkXpn9EteCABt3NL8cLlvU-p3y_w00ad2fc70000d849834', 'X-user-key': '226793524'}
+[INFO]2023-11-14 21:35:10:263--re.py:25--res code:500
+[INFO]2023-11-14 21:35:10:264--re.py:26--res res:{"errorCode":-7,"errorMsg":"参数不合法！"}
