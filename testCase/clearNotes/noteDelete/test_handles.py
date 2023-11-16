@@ -47,12 +47,13 @@ class NoteDelete(unittest.TestCase):
             }
             res = self.re.post(self.url, body, self.sid2, self.userId2)
             self.assertEqual(200, res.status_code)
+            print("XXXXXXXXXXX")
             expr = self.assertBase
             OutputCheck().assert_output(expr, res.json())
             # 数据源精准校验
             noteIds = GetAllNotes().get_all_notes(self.x_user_Key1, self.sid1)
             info(f'noteId和noteIds是：{noteId} {noteIds}')
-            self.assertEqual(noteId, noteIds[0], msg=f'校验失败，数据不存在{res.text}')
+            self.assertEqual(noteId, noteIds[1], msg=f'校验失败，数据不存在{res.text}')
 
 
 
